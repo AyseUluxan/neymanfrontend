@@ -12,7 +12,9 @@ const Accordion = () => {
             <span className='text-24 font-semibold'>Yüksək standartlar</span>
         </button>
         <div className={`grid overflow-hidden transition-all duration-500 ease-in-out ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-            <div className='overflow-hidden text-18 xs:text-justify xxs:text-justify'>Vitae gfgaliquam in ultrices integer facilisi massa neque volutpat. Nam sollicitudin sagittis sollicitudin iaculis no feugiat nulla. Pellentesque bir pretium seçir.</div>
+            <div className='overflow-hidden text-18 xs:text-justify xxs:text-justify'>Vitae gfgaliquam in ultrices integer facilisi massa neque volutpat.  Nam sollicitudin sagittis sollicitudin iaculis no feugiat nulla. Pellentesque bir pretium seçir.
+            Seni olene kadar sevecem meni 2 ci kez dunyaya getiren kadin love you my baybe 
+            </div>
         </div>
 
 
