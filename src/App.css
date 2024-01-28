@@ -1,0 +1,71 @@
+*{
+    font-family: 'Syne', sans-serif;
+}
+
+.home-blog .blog-card img{
+    transition:  all 0.5s;
+}
+
+.home-blog .blog-card:hover img{
+    transform: rotateY(180deg);
+}
+
+.home-blog .blog-card .blog-card-end{
+    transition: all 0.5s;
+}
+
+.home-blog .blog-card .blog-card-end:hover .right-btn{
+    transform: rotate(45deg);
+}
+
+.slide{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.home-slide{
+    animation: 17s slide infinite linear;
+}
+
+.home-slider{
+    animation: 17s slider infinite linear;
+}
+
+.slide:hover .home-slide{
+    animation-play-state: paused;
+}
+.home-slide-section a{
+    transition: all 0.5s;
+}
+
+.home-slide-section a:hover{
+    color: #0023CA;
+}
+
+.slider:hover .home-slider{
+    animation-play-state: paused;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slider{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+

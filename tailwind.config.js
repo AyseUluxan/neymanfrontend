@@ -18,7 +18,10 @@ module.exports = {
         'magnolia': '#F4F1FE',
         'anti-flash-white': '#EEF2F6',
         'medium-blue': '#0023CA',
-        'pumpkin': '#f97316'
+        'pumpkin': '#f97316',
+        'spanish-gray': '#9B9B9B',
+        'cultured': '#F5F5F5',
+        'dark-liver': '#4D4D4D'
       },
       fontSize: {
         '0': '0',
@@ -156,6 +159,8 @@ module.exports = {
         '130': '130px',
         '136': '136px',
         '150': '150px',
+        '170': '170px',
+        '180': '180px',
         '160': '160px',
         '186': '186px',
         '200': '200px',
@@ -179,11 +184,20 @@ module.exports = {
       // },
       width:{
         '120': '120px',
+        '269' : '269px',
+        '300' : '300px',
+        '361':'361px',
+        '432':'432px',
       },
       height:{
         '60': '60px',
         '100': '100px',
-        '150': '150px'
+        '150': '150px',
+        '269' : '269px',
+        '300' : '300px',
+        '361':'361px',
+        '432':'432px',
+
       },
       screens: {
         xxs: { min: "200px", max: "320px" },
@@ -203,6 +217,10 @@ module.exports = {
         "2xl": { min: "1536px" },
         // => @media (min-width: 1536px) { ... }
       },
+      rotate: {
+        '150': '150deg',
+      }
+
     },
   },
   plugins: [],
